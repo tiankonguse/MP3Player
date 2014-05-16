@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Mp3_v21</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="start_text">tiankong MusicPlayer</string>
+    
+    <string name="footer_text">正在播放的音乐</string>
+    
+    <string name="main_tabs_mymusic">我的音乐</string>
+    <string name="main_tabs_allmusic">所有音乐</string>
+    <string name="main_tabs_playmusic">播放列表</string>
+    
+    <string name="seletelist">请选择列表</string>
+    <string name="seletelist_music_is_exit">歌曲已经在列表中</string>
+    <string name="seletelist_music_is_not_exit">歌曲不存在</string>
+
+    <string name="resumeexit">再按一次退出程序</string>
+	<string name="isplaying">这首歌正在播放</string>
+	<string name="musitnotexit">这首歌不存在</string>
+
+	<string name="player_musiclist_is_null">歌曲列表为空</string>
+	<string name="player_musicname">歌曲名称</string>
+	<string name="player_time_all">99:99</string>
+	<string name="player_time_now">00:00</string>
+		
+	<string name="my_music_list_add_headname">创建列表</string>
+	<string name="my_music_list_add_listname">列表名称</string>
+	<string name="my_music_list_add_name">默认列表</string>
+
+	<string name="menu_exit">退出</string>
+	<string name="menu_list_play_del">删除全部</string>
+	<string name="menu_list_my_add">添加新列表</string>
+	<string name="menu_list_all_playall">播放全部</string>
+	<string name="menu_list_all_update">跟新列表</string>
+</resources>

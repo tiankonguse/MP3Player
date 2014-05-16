@@ -1,0 +1,90 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/widget_bg"
+    >
+    <ImageView 
+        android:id="@+id/widget_image"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:layout_margin="5dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/widget_image"
+        />
+    <RelativeLayout
+        android:id="@+id/widget_layout_right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"        
+        android:orientation="vertical"
+        >
+        <LinearLayout
+	        android:id="@+id/widget_layout_right_up"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        
+	        android:layout_alignParentTop="true"
+            >
+
+            <TextView
+                android:id="@+id/widget_music_name"
+                android:layout_width="fill_parent"
+                android:layout_height="25dip"
+                android:gravity="center"
+                android:text="@string/footer_text"
+                android:textColor="@color/footer_textcolor"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/widget_layout_right_down"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"    
+	        android:layout_below="@id/widget_layout_right_up"
+            >
+        	<ImageView 
+	            android:id="@+id/widget_last"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_marginLeft="2dip"
+	            android:layout_marginRight="2dip"
+	            android:src="@drawable/player_footer_last_select"
+	            android:contentDescription="@string/app_name"
+            />
+           <ImageView 
+	            android:id="@+id/widget_play"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_marginLeft="2dip"
+	            android:layout_marginRight="2dip"
+	            android:src="@drawable/player_footer_play_select"
+	            android:contentDescription="@string/app_name"
+            />
+           <ImageView 
+	            android:id="@+id/widget_stop"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_marginLeft="2dip"
+	            android:layout_marginRight="2dip"
+	            android:src="@drawable/player_footer_stop_select"
+	            android:contentDescription="@string/app_name"
+            />
+           <ImageView 
+	            android:id="@+id/widget_next"
+	            android:layout_width="40dip"
+	            android:layout_height="40dip"
+	            android:layout_marginLeft="2dip"
+	            android:layout_marginRight="2dip"
+	            android:src="@drawable/player_footer_next_select"
+	            android:contentDescription="@string/app_name"
+            />
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    
+</LinearLayout> 

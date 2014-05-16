@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+	>
+    
+    <RelativeLayout 
+        android:id="@+id/main_relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="0dp"
+        android:background="@color/main_relativelayout_bgcolor"
+        >
+        
+        <TabWidget 
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_below="@id/main_relativelayout"
+           ></TabWidget>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@android:id/tabs"
+            android:background="@color/main_viewpager_bgcolor"
+            />
+ 	<LinearLayout 
+            android:id="@+id/footer_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/nocolor"
+            android:orientation="horizontal"
+            >
+        <TextView 
+            android:id="@+id/footer_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/footertext_select"
+            android:padding="10dp"
+            android:text="@string/footer_text"
+            android:textColor="@color/footer_textcolor"
+            />
+        </LinearLayout>
+        <FrameLayout 
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/footer_linearlayout"
+            />
+        
+    </RelativeLayout>
+    
+</TabHost>

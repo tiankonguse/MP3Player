@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    >
+    
+ 
+    <ImageButton 
+        android:id="@+id/all_item_del"
+        android:src="@drawable/all_delete_select"
+        android:background="@color/nocolor"
+        android:contentDescription="@string/app_name"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    
+    <ImageButton 
+        android:id="@+id/all_item_like"
+        android:src="@drawable/all_like_select"
+        android:background="@color/nocolor"
+        android:contentDescription="@string/app_name"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/all_item_del"
+        />
+    <ImageButton 
+        android:id="@+id/all_item_add"
+        android:src="@drawable/all_add_select"
+        android:background="@color/nocolor"
+        android:contentDescription="@string/app_name"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/all_item_like"
+        />
+    
+    <TextView 
+        android:id="@+id/all_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_toLeftOf="@id/all_item_add"
+        android:background="@color/nocolor"
+        android:gravity="center_vertical"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/all_item_textcolor"
+        android:textSize="16sp"
+        />
+    
+</RelativeLayout>

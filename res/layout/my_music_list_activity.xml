@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_list_relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg_left"
+    android:orientation="vertical"
+    >
+
+    <ExpandableListView 
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/my_list_bg"
+        android:childDivider="@drawable/divider"
+        android:divider="@drawable/divider"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:scrollingCache="false"
+        android:layout_marginBottom="55dp"
+       />
+    <ImageView
+        android:id="@+id/my_music_list_add"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="55dp"
+        android:src="@drawable/addlist"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

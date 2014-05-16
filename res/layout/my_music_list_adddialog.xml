@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/my_music_list_add_dialog">
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/my_music_list_add_listname"
+        />
+    
+    <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/my_music_list_add_listname" 
+        android:minWidth="100dip"
+        android:hint="@string/my_music_list_add_listname"
+        />
+</LinearLayout>

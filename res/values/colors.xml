@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="start_text_color">#2F2FED</color>
+    <color name="main_tabhost_bgcolor">#00000000</color>
+    <color name="main_relativelayout_bgcolor">#00000000</color>
+    <color name="main_tabwidget_bgcolor">#00000000</color>
+    <color name="main_viewpager_bgcolor">#00000000</color>
+    <color name="main_player_bgcolor">#00000000</color>
+    <color name="main_footer_bgcolor">#00000000</color>
+    <color name="nocolor">#00000000</color>
+    
+    <color name="all_item_textcolor">#DDDDDD</color>
+    <color name="footer_textcolor">#DDDDDD</color>
+    <color name="player_time_color">#DDDDDD</color>
+    <color name="player_head_imagecolor">#33AAAAAA</color>
+    <color name="player_musicname_textcolor">#DDDDDD</color>
+    <color name="player_musiclrc_bgcolor">#00000000</color>
+
+	<color name="play_list_item_bgcolor">#00000000</color>
+	<color name="play_list_item_delbg_color">#00000000</color>
+	<color name="play_list_item_namebg_color">#00000000</color>
+	<color name="play_list_item_nametext_color">#DDDDDD</color>
+	
+	<color name="my_list_item_layout_color">#00000000</color>
+	<color name="my_list_item_delete_color">#00000000</color>
+	<color name="my_list_item_name_bg_color">#00000000</color>
+	<color name="my_list_item_name_text_color">#DDDDDD</color>
+	<color name="my_list_group_layout_color">#22DDDDDD</color>
+	<color name="my_list_group_play_color">#00000000</color>
+	<color name="my_list_group_delete_color">#00000000</color>
+	<color name="my_list_group_name_text_color">#DDDDDD</color>
+	<color name="my_list_group_name_bg_color">#00000000</color>
+	<color name="my_list_bg">#00000000</color>
+	<color name="my_list_add_head_text_color">#DDDDDD</color>
+</resources>
