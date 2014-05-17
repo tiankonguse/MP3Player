@@ -167,13 +167,13 @@ public class ServiceHelp {
 		intent.putExtra("path", path);
 		intent.putExtra("artist", artist);
 		context.startService(intent);
-
+		
 	}
 	
 	public static void turnToPlayList(Context context,List<HashMap<String, Object>>playList){
 		
 		if(playList.isEmpty()){
-			Toast.makeText(context, "Õâ¸öÁÐ±íÎª¿Õ£¬²»ÄÜ²¥·Å", Toast.LENGTH_SHORT).show();
+			Toast.makeText(context, "ï¿½ï¿½ï¿½ï¿½Ð±ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½Ü²ï¿½ï¿½ï¿½", Toast.LENGTH_SHORT).show();
 		}else{
 			stop(context);
 			SetMyMusicDB.updateMusicList(context, MyMusicDB.db_playmusic, playList);
